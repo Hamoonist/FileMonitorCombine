@@ -30,10 +30,10 @@
 /* Begin PBXFileReference section */
 		0E7F20CCD150E0E8DF83486F /* Pods-FileMonitorCombine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileMonitorCombine_Tests.release.xcconfig"; path = "Target Support Files/Pods-FileMonitorCombine_Tests/Pods-FileMonitorCombine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16D8631350035454AB291015 /* Pods_FileMonitorCombine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileMonitorCombine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A5114FDF0124FCB1118B180 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		33A7C7AA927BEC2680756C15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2A5114FDF0124FCB1118B180 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		33A7C7AA927BEC2680756C15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37E8AF02766F6A7610BC9140 /* Pods-FileMonitorCombine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileMonitorCombine_Example.release.xcconfig"; path = "Target Support Files/Pods-FileMonitorCombine_Example/Pods-FileMonitorCombine_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B6A87E01A85E1B7D7AD2BFE /* FileMonitorCombine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FileMonitorCombine.podspec; path = ../FileMonitorCombine.podspec; sourceTree = "<group>"; };
+		5B6A87E01A85E1B7D7AD2BFE /* FileMonitorCombine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FileMonitorCombine.podspec; path = ../FileMonitorCombine.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FileMonitorCombine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileMonitorCombine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				A5058A8F4195B83E7E8232F6 /* Pods-FileMonitorCombine_Tests.debug.xcconfig */,
 				0E7F20CCD150E0E8DF83486F /* Pods-FileMonitorCombine_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -506,7 +506,7 @@
 				INFOPLIST_FILE = FileMonitorCombine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonist.FileMonitorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -521,7 +521,7 @@
 				INFOPLIST_FILE = FileMonitorCombine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonist.FileMonitorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
